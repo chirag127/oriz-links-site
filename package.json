@@ -11,7 +11,7 @@
     "deploy": "astro build && wrangler pages deploy dist --project-name links-oriz-in --branch main --commit-dirty=true"
   },
   "dependencies": {
-    "@chirag127/oz-ai": "file:../design-system/packages/oz-ai",
+    "@chirag127/oz-ai": "^0.3.0",
     "@astrojs/mdx": "^4.0.0",
     "@astrojs/react": "^4.0.0",
     "@astrojs/rss": "^4.0.0",
