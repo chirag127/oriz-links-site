@@ -43,7 +43,7 @@ pnpm dev
 pnpm deploy   # astro build + wrangler pages deploy dist
 ```
 
-Auto-deploys to Cloudflare Pages (`links-oriz-in`) on push to `main` via `.github/workflows/publish.yml`.
+Auto-deploys to Cloudflare Pages (`oriz-links-site`) on push to `main` via `.github/workflows/publish.yml`.
 
 ## License
 

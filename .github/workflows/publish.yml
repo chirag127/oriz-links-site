@@ -27,6 +27,6 @@ jobs:
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: links-oriz-in
+          projectName: oriz-links-site
           directory: dist
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
